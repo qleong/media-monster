@@ -28,3 +28,8 @@
 *.DS_Store
 # Ignore Rubymine IDE settings
 /.idea/
+
+# Ignore files that contain sensitive data that should not be checked into version control
+config/database.yml
+config/application.yml
+
